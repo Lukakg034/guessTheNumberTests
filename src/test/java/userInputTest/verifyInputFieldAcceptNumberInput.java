@@ -5,7 +5,7 @@ import baseTest.BaseTest;
 import org.testng.annotations.Test;
 
 public class verifyInputFieldAcceptNumberInput extends BaseTest {
-
+//TODO input field test with numbers
     @Test(enabled = false)
     public void test (){
         HomePage homePage = new HomePage(driver);

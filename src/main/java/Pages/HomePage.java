@@ -47,4 +47,9 @@ public class HomePage {
     public WebElement getRulesMessage(){
         return driver.findElement(rulesMessage);
     }
+    public String messageOnHigherNumber = "Number is too high!";
+
+    public String messageOnSmallerNumber = "Number is too low!";
+
+    public String messageOnCorrectNumber = "Number is right!";
 }
