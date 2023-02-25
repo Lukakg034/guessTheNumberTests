@@ -11,7 +11,7 @@ public class BaseTest {
 
      @BeforeMethod
      public void initialize(){
-          System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver_109\\chromedriver.exe");
+          System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver_110\\chromedriver.exe");
           driver = new ChromeDriver();
           driver.manage().window().maximize();
           driver.get("https://lukakg034.github.io/guessTheNumber/");
